@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d3b2e,100:2f9e6e&height=170&section=header&text=Karan%20Rajeshbhai%20Mungara&fontSize=36&fontColor=f7f5e8&fontAlignY=34&desc=I%20build%20AI%20systems%20you%20can%20audit&descSize=17&descAlignY=54" alt="Karan Rajeshbhai Mungara — I build AI systems you can audit" width="100%">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d3b2e,100:2f9e6e&height=170&section=header&text=Karan%20Rajeshbhai%20Mungara&fontSize=36&fontColor=f7f5e8&fontAlignY=34&desc=Information%20security%2C%20and%20the%20automation%20around%20it&descSize=17&descAlignY=54" alt="Karan Rajeshbhai Mungara — information security, and the automation around it" width="100%">
 </p>
 
 <p align="center">
@@ -20,10 +20,11 @@
 
 ---
 
-### It is easy to make AI **fast**. It is hard to make AI **provable**.
+I own vulnerability management at Staffbase, and I automate the parts that repeat — vendor
+reviews, security questionnaires, the same scanner finding read four times over.
 
-Most teams now have AI writing code, drafting answers and touching production — with no way to
-show afterwards what it actually did. Everything I build closes that gap.
+The automation has to show its work. An answer a security team cannot trace back is worth less
+to them than no answer at all.
 
 ---
 
