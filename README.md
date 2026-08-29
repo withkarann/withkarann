@@ -125,13 +125,7 @@ Every compliance claim links to the vendor's own words, and **`null` means unver
 
 ## 🧰 Stack
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=typescript,react,nextjs,nodejs,deno,vite,tailwindcss&theme=dark" width="300" alt="TypeScript, React, Next.js, Node.js, Deno, Vite, Tailwind"><br>
-  <img src="https://skillicons.dev/icons?i=postgresql,supabase,sqlite,redis,vercel,cloudflare,docker,nginx&theme=dark" width="343" alt="Postgres, Supabase, SQLite, Redis, Vercel, Cloudflare, Docker, nginx"><br>
-  <img src="https://skillicons.dev/icons?i=githubactions,sentry,vitest,bash,linux,workers&theme=dark" width="257" alt="GitHub Actions, Sentry, Vitest, Bash, Linux, Cloudflare Workers">
-</p>
-
-**🔐 Security** &nbsp;
+**🔐 Security & GRC** &nbsp;
 ![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square&logo=burpsuite&logoColor=white)
 ![OWASP ZAP](https://img.shields.io/badge/OWASP_ZAP-000000?style=flat-square&logo=owasp&logoColor=white)
 ![Nuclei](https://img.shields.io/badge/Nuclei-1B2B34?style=flat-square)
@@ -139,20 +133,56 @@ Every compliance claim links to the vendor's own words, and **`null` means unver
 ![CodeQL](https://img.shields.io/badge/CodeQL-2088FF?style=flat-square&logo=github&logoColor=white)
 ![SonarCloud](https://img.shields.io/badge/SonarCloud-F3702A?style=flat-square&logo=sonarcloud&logoColor=white)
 ![Socket.dev](https://img.shields.io/badge/Socket.dev-6D28D9?style=flat-square)
-![Gitleaks + TruffleHog](https://img.shields.io/badge/Gitleaks_+_TruffleHog-B91C1C?style=flat-square)
+![Gitleaks](https://img.shields.io/badge/Gitleaks-B91C1C?style=flat-square)
+![TruffleHog](https://img.shields.io/badge/TruffleHog-B91C1C?style=flat-square)
 ![OSV-Scanner](https://img.shields.io/badge/OSV--Scanner-4285F4?style=flat-square&logo=google&logoColor=white)
+![Darktrace](https://img.shields.io/badge/Darktrace-1B2B34?style=flat-square)
+![Drata](https://img.shields.io/badge/Drata-6D28D9?style=flat-square)
 ![CycloneDX SBOM](https://img.shields.io/badge/CycloneDX_SBOM-0F766E?style=flat-square)
-![pgTAP](https://img.shields.io/badge/pgTAP_RLS_suites-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![1Password](https://img.shields.io/badge/1Password-3B66BC?style=flat-square&logo=1password&logoColor=white)
 
 **🤖 AI & agents** &nbsp;
 ![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=claude&logoColor=white)
 ![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=anthropic&logoColor=white)
 ![MCP](https://img.shields.io/badge/MCP-000000?style=flat-square&logo=modelcontextprotocol&logoColor=white)
-![Vercel AI Gateway](https://img.shields.io/badge/Vercel_AI_Gateway-000000?style=flat-square&logo=vercel&logoColor=white)
-![Local LLMs](https://img.shields.io/badge/Local_LLMs_(LM_Studio,_Gemma)-000000?style=flat-square&logo=ollama&logoColor=white)
+![Codex](https://img.shields.io/badge/Codex-000000?style=flat-square)
+![Cursor](https://img.shields.io/badge/Cursor-000000?style=flat-square&logo=cursor&logoColor=white)
+![Copilot](https://img.shields.io/badge/GitHub_Copilot-000000?style=flat-square&logo=githubcopilot&logoColor=white)
+![Antigravity](https://img.shields.io/badge/Antigravity-4285F4?style=flat-square&logo=google&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
+![NotebookLM](https://img.shields.io/badge/NotebookLM-1B72E8?style=flat-square&logo=googlenotebooklm&logoColor=white)
+![LM Studio](https://img.shields.io/badge/LM_Studio-000000?style=flat-square)
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+![ElevenLabs](https://img.shields.io/badge/ElevenLabs-000000?style=flat-square&logo=elevenlabs&logoColor=white)
+![Lovable](https://img.shields.io/badge/Lovable-FF4785?style=flat-square)
+![v0](https://img.shields.io/badge/v0-000000?style=flat-square&logo=v0&logoColor=white)
 ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
-![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-000000?style=flat-square&logo=opentelemetry&logoColor=white)
+
+**⚙️ Build · Data · Platform** &nbsp;
+
+<img src="https://skillicons.dev/icons?i=typescript,react,nextjs,nodejs,deno,vite,tailwindcss,python,c,php&theme=dark" width="428" alt="TypeScript, React, Next.js, Node.js, Deno, Vite, Tailwind, Python, C, PHP"><br>
+<img src="https://skillicons.dev/icons?i=postgresql,supabase,sqlite,redis,docker,vercel,cloudflare,nginx,aws,azure&theme=dark" width="428" alt="Postgres, Supabase, SQLite, Redis, Docker, Vercel, Cloudflare, nginx, AWS, Azure">
+
+**🔬 Quality & observability** &nbsp;
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
+![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white)
+![pgTAP](https://img.shields.io/badge/pgTAP-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
+![Sentry](https://img.shields.io/badge/Sentry_(EU)-362D59?style=flat-square&logo=sentry&logoColor=white)
+![PostHog](https://img.shields.io/badge/PostHog_(EU)-1D4AFF?style=flat-square&logo=posthog&logoColor=white)
+![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-000000?style=flat-square&logo=opentelemetry&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+
+**🎨 Design & workplace** &nbsp;
+![UI/UX](https://img.shields.io/badge/UI%2FUX_design-2f9e6e?style=flat-square)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
+![Canva](https://img.shields.io/badge/Canva-00C4CC?style=flat-square&logo=canva&logoColor=white)
+![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white)
+![Confluence](https://img.shields.io/badge/Confluence-172B4D?style=flat-square&logo=confluence&logoColor=white)
+![Slack](https://img.shields.io/badge/Slack-4A154B?style=flat-square&logo=slack&logoColor=white)
+![Notion](https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
+![Wispr Flow](https://img.shields.io/badge/Wispr_Flow-000000?style=flat-square)
 
 <br>
 
