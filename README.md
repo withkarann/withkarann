@@ -55,25 +55,31 @@ so our hours go to judgement instead of copy-paste.
 ### 🔒 [ClaudeSec](https://github.com/aanjaneyasinghdhoni/ClaudeSec)
 <img src="https://img.shields.io/badge/AGPL--3.0-open_source-2f9e6e?style=flat-square"> <img src="https://img.shields.io/badge/673-detection_rules-1B2B34?style=flat-square">
 
-Local-first security observability for AI coding agents. Tails agent transcripts, scores every
-tool call, blocks dangerous commands before they run.
+**Your coding agent stopped asking permission. This keeps the receipt.**
 
-- **Stateful sequence engine** — reading `.env` is fine, running `curl` is fine, doing both 90 seconds apart is exfiltration
-- Every custom regex compiled through **RE2** — a user rule can't ReDoS your host
-- **Signed, hash-chained evidence** — prove your own audit log wasn't edited
+Claude Code, Copilot CLI and Codex land in one live timeline on one machine — every command, file touch and network call. No tenant, no account, nothing uploaded.
+
+- **Sequence engine** — reading `.env` is fine, running `curl` is fine; doing both ninety seconds apart is exfiltration
+- **673 detection rules**, every custom regex compiled through **RE2** so a rule can't hang your host
+- **Blocks what can't be undone** before it runs, with a protected-path floor
+- **Ed25519-signed, hash-chained evidence packs** — prove your own log wasn't edited
+- Also scans MCP servers and skills, plants honeytokens, exports to Prometheus and webhooks
 
 </td>
 <td width="50%" valign="top">
 
 ### 🎯 [VODP](https://vodp.dev) &nbsp;<sub>vodp.dev</sub>
-<img src="https://img.shields.io/badge/M.Sc._thesis-TU_Chemnitz-4169E1?style=flat-square"> <img src="https://img.shields.io/badge/531→37-findings-1B2B34?style=flat-square">
+<img src="https://img.shields.io/badge/M.Sc._thesis-TU_Chemnitz-4169E1?style=flat-square"> <img src="https://img.shields.io/badge/93%25-less_triage-1B2B34?style=flat-square">
 
-Four scanners in, one honest list out. Burp Suite, ZAP, Nuclei and Dalfox normalised,
-deduplicated, auto-retested.
+**Four scanners in. One honest list out.**
 
-- **531 raw findings → 37 real ones**
-- I hand-classified all 531 decisions: **99.2% precision · 99.4% recall · 0.8% false-merge** <sub>(DVWA benchmark)</sub>
-- Retest reliability **published as unverified** — the sample was too small to claim it
+Burp Suite, ZAP, Nuclei and Dalfox normalised into one schema, deduplicated, and re-tested automatically when someone claims a fix.
+
+- **531 raw findings → 37 real ones** — a 93% cut in triage volume
+- **99.2% precision · 99.4% recall · 0.8% false-merge** <sub>(DVWA benchmark, every merge manually reviewed)</sub>
+- **~2 seconds** to confirm a fix, against 10–30 minutes by hand
+- **SUS 82.14** from 14 practising security engineers — the "excellent" band, against a 68 cross-study average
+- **Deliberately not machine learning.** Wrongly merging two findings can hide an exploitable one, so every merge shows its score and method and can be overridden in one click
 
 </td>
 </tr>
@@ -83,12 +89,15 @@ deduplicated, auto-retested.
 ### 📋 [Answerdeck](https://answerdeck.app) &nbsp;<sub>answerdeck.app</sub>
 <img src="https://img.shields.io/badge/in_progress-F59E0B?style=flat-square"> <img src="https://img.shields.io/badge/EU-by_design-0F766E?style=flat-square">
 
-A compliance intelligence layer for SaaS security teams. Source-grounded questionnaire answers,
-every one through human review.
+**Security questionnaires gate enterprise deals. They shouldn't eat a week.**
 
-- Every AI generation writes a **10-field decision record** — an auditor can ask *why*
-- **83 pgTAP tests** over RLS/RBAC; RLS coverage enforced as a CI gate
-- Supabase EU · Sentry Frankfurt · PostHog EU
+Draws answers from a team's own evidence, cites the document behind each one, and routes every answer through human review before it leaves.
+
+- **It refuses rather than guesses** — below a confidence floor it escalates to a person instead of writing something plausible
+- **Every generation writes a ten-field decision record**, so an auditor can ask *why* any answer was given
+- **Append-only audit trail**, enforced by database trigger and withheld grants — not by convention
+- **83 pgTAP tests** across row-level security and roles, blocking in CI
+- **EU by design** — data in AWS Ireland, EU analytics, EU error tracking
 
 </td>
 <td width="50%" valign="top">
@@ -96,12 +105,15 @@ every one through human review.
 ### 🏢 [BrikSync PropOS](https://briksync.com) &nbsp;<sub>briksync.com</sub>
 <img src="https://img.shields.io/badge/private_beta-6D28D9?style=flat-square"> <img src="https://img.shields.io/badge/~4,400-tests-1B2B34?style=flat-square">
 
-Multi-tenant property operations SaaS. I designed the RBAC + row-level-security model — then
-found a cross-tenant leak in my own design.
+**A live multi-tenant SaaS where the permission model *is* the product.**
 
-- Measured with real tokens: **137 foreign rows → 0**
-- 219 test files · 105 migrations
-- Custom checks: `SECURITY DEFINER` search_path, plan-limit sync, identity-leak detection
+Landlord, property manager, broker and tenant each sign in and see only their own part — enforced in the database, not hidden in the screen.
+
+- **Six roles across four kinds of user**, with access rules in row-level security
+- **I found a cross-tenant leak in my own design** and measured it with real tokens: **137 foreign rows visible → 0**, with an RLS matrix suite to keep it there
+- **~4,400 executed test cases** across 219 files · 105 migrations
+- Custom static checks beyond off-the-shelf tooling: `SECURITY DEFINER` search-path hardening, plan-limit sync, public-identity leak detection
+- Properties, units, leases, renewals, maintenance, documents, broker commissions
 
 </td>
 </tr>
@@ -111,16 +123,23 @@ found a cross-tenant leak in my own design.
 ### 🦊 [aifoxx](https://aifoxx.com) &nbsp;<sub>aifoxx.com</sub>
 <img src="https://img.shields.io/badge/MIT-open_source-2f9e6e?style=flat-square"> <img src="https://img.shields.io/badge/live-2f9e6e?style=flat-square">
 
-An open, **source-cited** directory of AI tooling — with a trust & security report per vendor.
-Every compliance claim links to the vendor's own words, and **`null` means unverified, never `false`** — enforced in the schema, not the style guide.
+**"Is this tool SOC 2? Do they train on our data? Where does it live?" — the three questions every AI shortlist dies on.**
+
+A catalogue where those fields are recorded once, comparably, with a link to the vendor page that proves each one.
 
 <div align="center">
 
-| 🧰 AI tools | 🔌 MCP servers | 🎛️ Claude Code skills | 🔍 Trust reports |
+| 🧰 AI tools | 🔌 MCP servers | 🎛️ Claude Code skills | 🔍 Vendor trust reports |
 |:---:|:---:|:---:|:---:|
 | **992** | **1,979** | **1,638** | **980** |
 
 </div>
+
+- **Every `true` compliance flag carries a source URL on the vendor's own domain**, and every certification in a trust report carries a verbatim quote
+- **`null` means unverified, never `false`** — enforced in the schema, not the style guide
+- Refuses whole categories, and delists tools whose claims stop checking out
+- Our own products appear with the same fields, no ranking advantage, and an on-page conflict disclosure
+- Static and pre-rendered — no backend, no tracking, MIT code *and* data
 
 </td>
 </tr>
