@@ -35,6 +35,7 @@ so our hours go to judgement instead of copy-paste.
 | 💰 **ROI, not procurement** | Accurate enough that we **cancelled the commercial tool** we were evaluating |
 | 🏆 **Recognition** | **CFO Innovation Award** |
 | 🔍 **AI-augmented pentesting** | Burp Suite Pro wired to Claude over MCP — testing driven in plain language |
+| 🤖 **Agentic engineering** | **836 subagents dispatched** across 1,358 sessions — roughly 7 agent actions for every hand edit |
 
 > The thread through all of it: **get real ROI out of the AI you already pay for, instead of buying the next tool.**
 
