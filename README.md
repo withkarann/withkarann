@@ -148,64 +148,110 @@ code are watched by the tool I built to watch agents.
 
 ## 🧰 Stack
 
-**🔐 Security & GRC** &nbsp;
-![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square&logo=burpsuite&logoColor=white)
-![OWASP ZAP](https://img.shields.io/badge/OWASP_ZAP-000000?style=flat-square&logo=owasp&logoColor=white)
-![Nuclei](https://img.shields.io/badge/Nuclei-1B2B34?style=flat-square)
-![Semgrep](https://img.shields.io/badge/Semgrep-1B2B34?style=flat-square)
-![CodeQL](https://img.shields.io/badge/CodeQL-2088FF?style=flat-square&logo=github&logoColor=white)
-![SonarCloud](https://img.shields.io/badge/SonarCloud-F3702A?style=flat-square&logo=sonarcloud&logoColor=white)
-![Socket.dev](https://img.shields.io/badge/Socket.dev-6D28D9?style=flat-square)
-![Gitleaks](https://img.shields.io/badge/Gitleaks-B91C1C?style=flat-square)
-![TruffleHog](https://img.shields.io/badge/TruffleHog-B91C1C?style=flat-square)
-![OSV-Scanner](https://img.shields.io/badge/OSV--Scanner-4285F4?style=flat-square&logo=google&logoColor=white)
-![Darktrace](https://img.shields.io/badge/Darktrace-1B2B34?style=flat-square)
-![Drata](https://img.shields.io/badge/Drata-6D28D9?style=flat-square)
-![CycloneDX SBOM](https://img.shields.io/badge/CycloneDX_SBOM-0F766E?style=flat-square)
-![1Password](https://img.shields.io/badge/1Password-3B66BC?style=flat-square&logo=1password&logoColor=white)
+**Security & GRC**
 
-**🤖 AI & agents** &nbsp;
-![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=claude&logoColor=white)
-![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=anthropic&logoColor=white)
-![MCP](https://img.shields.io/badge/MCP-000000?style=flat-square&logo=modelcontextprotocol&logoColor=white)
-![Codex](https://img.shields.io/badge/Codex-000000?style=flat-square)
-![Cursor](https://img.shields.io/badge/Cursor-000000?style=flat-square&logo=cursor&logoColor=white)
-![Copilot](https://img.shields.io/badge/GitHub_Copilot-000000?style=flat-square&logo=githubcopilot&logoColor=white)
-![Antigravity](https://img.shields.io/badge/Antigravity-4285F4?style=flat-square&logo=google&logoColor=white)
-![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
-![NotebookLM](https://img.shields.io/badge/NotebookLM-1B72E8?style=flat-square&logo=googlenotebooklm&logoColor=white)
-![LM Studio](https://img.shields.io/badge/LM_Studio-000000?style=flat-square)
-![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![ElevenLabs](https://img.shields.io/badge/ElevenLabs-000000?style=flat-square&logo=elevenlabs&logoColor=white)
-![Lovable](https://img.shields.io/badge/Lovable-FF4785?style=flat-square)
-![v0](https://img.shields.io/badge/v0-000000?style=flat-square&logo=v0&logoColor=white)
-![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
+<p>
+  <img alt="Burp Suite Pro" src="https://img.shields.io/badge/Burp_Suite_Pro-FF6633?style=flat-square&logo=burpsuite&logoColor=white">
+  <img alt="OWASP ZAP" src="https://img.shields.io/badge/OWASP_ZAP-00549E?style=flat-square&logo=zap&logoColor=white">
+  <img alt="Nuclei" src="https://img.shields.io/badge/Nuclei-1B2B34?style=flat-square">
+  <img alt="Semgrep" src="https://img.shields.io/badge/Semgrep-1B2B34?style=flat-square">
+  <img alt="CodeQL" src="https://img.shields.io/badge/CodeQL-181717?style=flat-square&logo=github&logoColor=white">
+  <img alt="SonarCloud" src="https://img.shields.io/badge/SonarCloud-126ED3?style=flat-square&logo=sonarqubecloud&logoColor=white">
+  <img alt="Socket.dev" src="https://img.shields.io/badge/Socket.dev-C93CD7?style=flat-square&logo=socket&logoColor=white">
+  <img alt="Gitleaks" src="https://img.shields.io/badge/Gitleaks-1B2B34?style=flat-square">
+  <img alt="TruffleHog" src="https://img.shields.io/badge/TruffleHog-1B2B34?style=flat-square">
+  <img alt="OSV-Scanner" src="https://img.shields.io/badge/OSV--Scanner-1B2B34?style=flat-square">
+  <img alt="Darktrace" src="https://img.shields.io/badge/Darktrace-1B2B34?style=flat-square">
+  <img alt="Drata" src="https://img.shields.io/badge/Drata-1B2B34?style=flat-square">
+  <img alt="Vulnerability mgmt" src="https://img.shields.io/badge/Vulnerability_mgmt-1B2B34?style=flat-square">
+  <img alt="Bug bounty triage" src="https://img.shields.io/badge/Bug_bounty_triage-1B2B34?style=flat-square">
+  <img alt="1Password" src="https://img.shields.io/badge/1Password-1B2B34?style=flat-square">
+</p>
 
-**⚙️ Build · Data · Platform** &nbsp;
+**AI & agents**
 
-<img src="https://skillicons.dev/icons?i=typescript,react,nextjs,nodejs,deno,vite,tailwindcss,python,c,php&theme=dark" width="428" alt="TypeScript, React, Next.js, Node.js, Deno, Vite, Tailwind, Python, C, PHP"><br>
-<img src="https://skillicons.dev/icons?i=postgresql,supabase,sqlite,redis,docker,vercel,cloudflare,nginx,aws,azure&theme=dark" width="428" alt="Postgres, Supabase, SQLite, Redis, Docker, Vercel, Cloudflare, nginx, AWS, Azure">
+<p>
+  <img alt="Agentic engineering" src="https://img.shields.io/badge/Agentic_engineering-1B2B34?style=flat-square">
+  <img alt="Claude" src="https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=claude&logoColor=white">
+  <img alt="Claude Code" src="https://img.shields.io/badge/Claude_Code-191919?style=flat-square&logo=anthropic&logoColor=white">
+  <img alt="MCP" src="https://img.shields.io/badge/MCP-000000?style=flat-square&logo=modelcontextprotocol&logoColor=white">
+  <img alt="Codex" src="https://img.shields.io/badge/Codex-1B2B34?style=flat-square">
+  <img alt="Cursor" src="https://img.shields.io/badge/Cursor-000000?style=flat-square&logo=cursor&logoColor=white">
+  <img alt="GitHub Copilot" src="https://img.shields.io/badge/GitHub_Copilot-000000?style=flat-square&logo=githubcopilot&logoColor=white">
+  <img alt="Antigravity" src="https://img.shields.io/badge/Antigravity-1B2B34?style=flat-square">
+  <img alt="Gemini" src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white">
+  <img alt="NotebookLM" src="https://img.shields.io/badge/NotebookLM-000000?style=flat-square&logo=notebooklm&logoColor=white">
+  <img alt="Deep research" src="https://img.shields.io/badge/Deep_research-1B2B34?style=flat-square">
+  <img alt="LM Studio" src="https://img.shields.io/badge/LM_Studio-000000?style=flat-square&logo=lmstudio&logoColor=white">
+  <img alt="Hugging Face" src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=white">
+  <img alt="ElevenLabs" src="https://img.shields.io/badge/ElevenLabs-000000?style=flat-square&logo=elevenlabs&logoColor=white">
+  <img alt="Seedance" src="https://img.shields.io/badge/Seedance-1B2B34?style=flat-square">
+  <img alt="Lovable" src="https://img.shields.io/badge/Lovable-1B2B34?style=flat-square">
+  <img alt="Replit" src="https://img.shields.io/badge/Replit-F26207?style=flat-square&logo=replit&logoColor=white">
+  <img alt="v0" src="https://img.shields.io/badge/v0-000000?style=flat-square&logo=v0&logoColor=white">
+  <img alt="n8n" src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white">
+</p>
 
-**🔬 Quality & observability** &nbsp;
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
-![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white)
-![pgTAP](https://img.shields.io/badge/pgTAP-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
-![Sentry](https://img.shields.io/badge/Sentry_(EU)-362D59?style=flat-square&logo=sentry&logoColor=white)
-![PostHog](https://img.shields.io/badge/PostHog_(EU)-1D4AFF?style=flat-square&logo=posthog&logoColor=white)
-![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-000000?style=flat-square&logo=opentelemetry&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+**Build**
 
-**🎨 Design & workplace** &nbsp;
-![UI/UX](https://img.shields.io/badge/UI%2FUX_design-2f9e6e?style=flat-square)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
-![Canva](https://img.shields.io/badge/Canva-00C4CC?style=flat-square&logo=canva&logoColor=white)
-![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white)
-![Confluence](https://img.shields.io/badge/Confluence-172B4D?style=flat-square&logo=confluence&logoColor=white)
-![Slack](https://img.shields.io/badge/Slack-4A154B?style=flat-square&logo=slack&logoColor=white)
-![Notion](https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
-![Wispr Flow](https://img.shields.io/badge/Wispr_Flow-000000?style=flat-square)
+<p>
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white">
+  <img alt="React" src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=white">
+  <img alt="Next.js" src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white">
+  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white">
+  <img alt="Deno" src="https://img.shields.io/badge/Deno-000000?style=flat-square&logo=deno&logoColor=white">
+  <img alt="Express.js" src="https://img.shields.io/badge/Express.js-0A0A0A?style=flat-square&logo=express&logoColor=white">
+  <img alt="Vite" src="https://img.shields.io/badge/Vite-9135FF?style=flat-square&logo=vite&logoColor=white">
+  <img alt="Tailwind" src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white">
+  <img alt="GSAP" src="https://img.shields.io/badge/GSAP-0AE448?style=flat-square&logo=gsap&logoColor=white">
+  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
+  <img alt="C" src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white">
+  <img alt="PHP · MySQL" src="https://img.shields.io/badge/PHP_%C2%B7_MySQL-777BB4?style=flat-square&logo=php&logoColor=white">
+  <img alt="VS Code" src="https://img.shields.io/badge/VS_Code-1B2B34?style=flat-square">
+</p>
+
+**Data & platform**
+
+<p>
+  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white">
+  <img alt="Supabase" src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white">
+  <img alt="SQLite" src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white">
+  <img alt="Redis" src="https://img.shields.io/badge/Redis-FF4438?style=flat-square&logo=redis&logoColor=white">
+  <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white">
+  <img alt="Vercel" src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white">
+  <img alt="Cloudflare" src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white">
+  <img alt="nginx" src="https://img.shields.io/badge/nginx-009639?style=flat-square&logo=nginx&logoColor=white">
+  <img alt="AWS" src="https://img.shields.io/badge/AWS-1B2B34?style=flat-square">
+  <img alt="Azure" src="https://img.shields.io/badge/Azure-1B2B34?style=flat-square">
+</p>
+
+**Quality & observability**
+
+<p>
+  <img alt="Playwright" src="https://img.shields.io/badge/Playwright-1B2B34?style=flat-square">
+  <img alt="Postman" src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white">
+  <img alt="Vitest" src="https://img.shields.io/badge/Vitest-00FF74?style=flat-square&logo=vitest&logoColor=white">
+  <img alt="pgTAP" src="https://img.shields.io/badge/pgTAP-4169E1?style=flat-square&logo=postgresql&logoColor=white">
+  <img alt="Sentry" src="https://img.shields.io/badge/Sentry-362D59?style=flat-square&logo=sentry&logoColor=white">
+  <img alt="PostHog" src="https://img.shields.io/badge/PostHog-000000?style=flat-square&logo=posthog&logoColor=white">
+  <img alt="OpenTelemetry" src="https://img.shields.io/badge/OpenTelemetry-000000?style=flat-square&logo=opentelemetry&logoColor=white">
+  <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white">
+  <img alt="Git CI/CD" src="https://img.shields.io/badge/Git_CI%2FCD-F03C2E?style=flat-square&logo=git&logoColor=white">
+</p>
+
+**Design & workplace**
+
+<p>
+  <img alt="UI/UX design" src="https://img.shields.io/badge/UI%2FUX_design-1B2B34?style=flat-square">
+  <img alt="Figma" src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white">
+  <img alt="Canva" src="https://img.shields.io/badge/Canva-1B2B34?style=flat-square">
+  <img alt="Screen Studio" src="https://img.shields.io/badge/Screen_Studio-1B2B34?style=flat-square">
+  <img alt="Jira" src="https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white">
+  <img alt="Confluence" src="https://img.shields.io/badge/Confluence-172B4D?style=flat-square&logo=confluence&logoColor=white">
+  <img alt="Slack" src="https://img.shields.io/badge/Slack-1B2B34?style=flat-square">
+  <img alt="Notion" src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=white">
+  <img alt="Wispr Flow" src="https://img.shields.io/badge/Wispr_Flow-1B2B34?style=flat-square">
+</p>
 
 <br>
 
