@@ -3,10 +3,15 @@
 </p>
 
 <p align="center">
-  <a href="https://withkarann.com"><img src="https://img.shields.io/badge/Portfolio-withkarann.com-2f9e6e?style=flat-square&logo=firefoxbrowser&logoColor=white"></a>
-  <a href="https://www.linkedin.com/in/withkarann/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"></a>
-  <a href="https://x.com/withkarann_"><img src="https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white"></a>
-  <a href="https://hackerone.com/withkarann_"><img src="https://img.shields.io/badge/HackerOne-494649?style=flat-square&logo=hackerone&logoColor=white"></a>
+  <a href="https://withkarann.com"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-withkarann.com-2f9e6e?style=flat-square&logo=firefoxbrowser&logoColor=white"></a>
+  <a href="https://www.linkedin.com/in/withkarann/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square"></a>
+  <a href="https://x.com/withkarann_"><img alt="X" src="https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white"></a>
+  <a href="https://hackerone.com/withkarann_"><img alt="HackerOne" src="https://img.shields.io/badge/HackerOne-494649?style=flat-square&logo=hackerone&logoColor=white"></a>
+</p>
+
+<p align="center">
+  <a href="https://cal.com/withkarann/introduction"><img alt="Book a call" src="https://img.shields.io/badge/%F0%9F%93%85%20Book%20a%20call-30%20min%2C%20no%20pitch-2f9e6e?style=for-the-badge"></a>
+  <a href="mailto:withkarann@gmail.com"><img alt="Email" src="https://img.shields.io/badge/%E2%9C%89%20Email%20me-1B2B34?style=for-the-badge"></a>
 </p>
 
 <p align="center">
@@ -260,3 +265,8 @@ code are watched by the tool I built to watch agents.
 </p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2f9e6e,100:0d3b2e&height=90&section=footer" width="100%">
+
+<p align="center">
+  <b>Working on something where AI meets security?</b><br>
+  <a href="https://cal.com/withkarann/introduction">Book 30 minutes</a> &nbsp;·&nbsp; <a href="mailto:withkarann@gmail.com">withkarann@gmail.com</a>
+</p>
