@@ -124,17 +124,25 @@ Every compliance claim links to the vendor's own words, and **`null` means unver
 
 ## 🤖 How this gets built
 
-I dispatch agents rather than typing the code myself. **Across my own projects** — not employer work — that comes to:
+I dispatch agents rather than typing the code myself — and I can tell you exactly how much,
+because I built the tool that measures it. **Across my own projects, not employer work:**
+
+**From [ClaudeSec](https://github.com/aanjaneyasinghdhoni/ClaudeSec)**, which instruments every tool call my agents make:
 
 | | |
 |:--|:--|
-| **836** | subagents dispatched, over 1,358 sessions and 67 repositories |
-| **~7 : 1** | agent/CLI actions per hand edit (43,790 Bash+MCP vs 6,382 Edit/Write) |
-| **385,647** | tool-call spans logged by my own ClaudeSec, across 146 repositories |
-| **4,843** | alerts ClaudeSec raised on my own agents — 22 critical |
+| **385,647** | tool-call spans logged, across **146 repositories** and 3 agent harnesses |
+| **4,843** | alerts raised on my own agents — 22 critical, 1,046 high |
 
-Every tool call routes through a pre-execution hook into ClaudeSec, so the agents that write my
-code are themselves monitored by the tool I built to watch agents.
+**From my session transcripts:**
+
+| | |
+|:--|:--|
+| **836** | subagents dispatched, over 1,358 sessions and 67 project directories |
+| **~7 : 1** | agent/CLI actions per hand edit (43,790 Bash+MCP vs 6,382 Edit/Write) |
+
+Every tool call routes through a pre-execution hook into ClaudeSec — so the agents that write my
+code are watched by the tool I built to watch agents.
 
 ---
 
