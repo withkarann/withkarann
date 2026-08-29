@@ -20,18 +20,19 @@
 
 ---
 
-I own vulnerability management at Staffbase, and I automate the parts that repeat — vendor
-reviews, security questionnaires, the same scanner finding read four times over.
+I own vulnerability management at Staffbase, a $1B+ employee communications company reaching
+about 16 million employees at roughly 2,000 organisations, and I automate the parts that repeat: vendor reviews, security questionnaires,
+the same scanner finding read four times over.
 
 The automation has to show its work. An answer a security team cannot trace back is worth less
 to them than no answer at all.
 
 ---
 
-## 🛡️ At Staffbase &nbsp;<sub><sup>$1B+ employee communications company</sup></sub>
+## 🛡️ At Staffbase &nbsp;<sub><sup>$1B+ · ~16M employees · ~2,000 organisations · Adidas, DHL, Alaska Airlines</sup></sub>
 
-I own vulnerability management end to end — then automate the rest of the security team's work
-so our hours go to judgement instead of copy-paste.
+I own vulnerability management end to end at that scale — then automate the rest of the security
+team's work so our hours go to judgement instead of copy-paste.
 
 | | |
 |:--|:--|
