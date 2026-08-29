@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d3b2e,100:2f9e6e&height=170&section=header&text=Karan%20Mungara&fontSize=44&fontColor=f7f5e8&fontAlignY=34&desc=I%20build%20AI%20systems%20you%20can%20audit&descSize=17&descAlignY=54" alt="Karan Mungara — I build AI systems you can audit" width="100%">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d3b2e,100:2f9e6e&height=170&section=header&text=Karan%20Rajeshbhai%20Mungara&fontSize=36&fontColor=f7f5e8&fontAlignY=34&desc=I%20build%20AI%20systems%20you%20can%20audit&descSize=17&descAlignY=54" alt="Karan Rajeshbhai Mungara — I build AI systems you can audit" width="100%">
 </p>
 
 <p align="center">
-  <a href="https://withkarann.com"><img src="https://img.shields.io/badge/Portfolio-withkarann.com-2f9e6e?style=for-the-badge&logo=firefoxbrowser&logoColor=white"></a>
-  <a href="https://www.linkedin.com/in/withkarann/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
-  <a href="https://x.com/withkarann_"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white"></a>
-  <a href="https://hackerone.com/withkarann_"><img src="https://img.shields.io/badge/HackerOne-494649?style=for-the-badge&logo=hackerone&logoColor=white"></a>
+  <a href="https://withkarann.com"><img src="https://img.shields.io/badge/Portfolio-withkarann.com-2f9e6e?style=flat-square&logo=firefoxbrowser&logoColor=white"></a>
+  <a href="https://www.linkedin.com/in/withkarann/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"></a>
+  <a href="https://x.com/withkarann_"><img src="https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white"></a>
+  <a href="https://hackerone.com/withkarann_"><img src="https://img.shields.io/badge/HackerOne-494649?style=flat-square&logo=hackerone&logoColor=white"></a>
 </p>
 
 <p align="center">
@@ -99,11 +99,14 @@ found a cross-tenant leak in my own design.
 
 </td>
 </tr>
-</table>
+<tr>
+<td colspan="2" valign="top">
 
-### 🦊 [aifoxx](https://aifoxx.com) &nbsp;<sub>aifoxx.com · MIT</sub>
+### 🦊 [aifoxx](https://aifoxx.com) &nbsp;<sub>aifoxx.com</sub>
+<img src="https://img.shields.io/badge/MIT-open_source-2f9e6e?style=flat-square"> <img src="https://img.shields.io/badge/live-2f9e6e?style=flat-square">
 
 An open, **source-cited** directory of AI tooling — with a trust & security report per vendor.
+Every compliance claim links to the vendor's own words, and **`null` means unverified, never `false`** — enforced in the schema, not the style guide.
 
 <div align="center">
 
@@ -113,16 +116,18 @@ An open, **source-cited** directory of AI tooling — with a trust & security re
 
 </div>
 
-Every compliance claim links to the vendor's own words. **`null` means unverified, never `false`** — enforced in the schema, not the style guide.
+</td>
+</tr>
+</table>
 
 ---
 
 ## 🧰 Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=typescript,react,nextjs,nodejs,deno,vite,tailwindcss&theme=dark" alt="TypeScript, React, Next.js, Node.js, Deno, Vite, Tailwind"><br>
-  <img src="https://skillicons.dev/icons?i=postgresql,supabase,sqlite,redis,vercel,cloudflare,docker,nginx&theme=dark" alt="Postgres, Supabase, SQLite, Redis, Vercel, Cloudflare, Docker, nginx"><br>
-  <img src="https://skillicons.dev/icons?i=githubactions,sentry,vitest,bash,linux,workers,grafana&theme=dark" alt="GitHub Actions, Sentry, Vitest, Bash, Linux, Workers, Grafana">
+  <img src="https://skillicons.dev/icons?i=typescript,react,nextjs,nodejs,deno,vite,tailwindcss&theme=dark" width="300" alt="TypeScript, React, Next.js, Node.js, Deno, Vite, Tailwind"><br>
+  <img src="https://skillicons.dev/icons?i=postgresql,supabase,sqlite,redis,vercel,cloudflare,docker,nginx&theme=dark" width="343" alt="Postgres, Supabase, SQLite, Redis, Vercel, Cloudflare, Docker, nginx"><br>
+  <img src="https://skillicons.dev/icons?i=githubactions,sentry,vitest,bash,linux,workers&theme=dark" width="257" alt="GitHub Actions, Sentry, Vitest, Bash, Linux, Cloudflare Workers">
 </p>
 
 **🔐 Security** &nbsp;
@@ -132,10 +137,10 @@ Every compliance claim links to the vendor's own words. **`null` means unverifie
 ![Semgrep](https://img.shields.io/badge/Semgrep-1B2B34?style=flat-square)
 ![CodeQL](https://img.shields.io/badge/CodeQL-2088FF?style=flat-square&logo=github&logoColor=white)
 ![SonarCloud](https://img.shields.io/badge/SonarCloud-F3702A?style=flat-square&logo=sonarcloud&logoColor=white)
-![Socket](https://img.shields.io/badge/Socket.dev-6D28D9?style=flat-square)
+![Socket.dev](https://img.shields.io/badge/Socket.dev-6D28D9?style=flat-square)
 ![Gitleaks + TruffleHog](https://img.shields.io/badge/Gitleaks_+_TruffleHog-B91C1C?style=flat-square)
 ![OSV-Scanner](https://img.shields.io/badge/OSV--Scanner-4285F4?style=flat-square&logo=google&logoColor=white)
-![CycloneDX](https://img.shields.io/badge/CycloneDX_SBOM-0F766E?style=flat-square)
+![CycloneDX SBOM](https://img.shields.io/badge/CycloneDX_SBOM-0F766E?style=flat-square)
 ![pgTAP](https://img.shields.io/badge/pgTAP_RLS_suites-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 
 **🤖 AI & agents** &nbsp;
@@ -147,34 +152,6 @@ Every compliance claim links to the vendor's own words. **`null` means unverifie
 ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
 ![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-000000?style=flat-square&logo=opentelemetry&logoColor=white)
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
-
----
-
-## 🤖 How I run AI agents in production
-
-Five codebases, each with a purpose-written `CLAUDE.md`. Rules I learned the hard way:
-
-> 🚧 **A UI gate is a UX hint, not a control.** Every enforcement decision lives server-side and, where data-shaped, in RLS.
-
-> 🧪 **A new server action with no test does not push.** Script-enforced against a ratcheting baseline that may only shrink.
-
-> 👀 **No self-review by the implementing agent.** Full review on a different, stronger model, every merge.
-
-> 🕵️ **Identifier drift is greppable. Value drift is invisible.** Changing a constant from 1 to 3 still compiles, still typechecks, still passes a mocked suite — while a seed script, an RLS threshold, five `?? 3` fallbacks and four doc pages quietly disagree. That one gets a machine check with **no allowlist**, on purpose.
-
-> ✋ **The agent may never claim my approval.** Don't write "the founder approved X" unless X was actually said — cite the message or the commit.
-
-Work dispatches in **batches of three**, then a mandatory stop, review, and a deliberately fresh
-context handoff. Long sessions rot. Model routing is a table, not a vibe.
-
----
-
-## 🔬 Currently
-
-Researching **Nuclei templating**, **agentic browsing** and **continuous vendor monitoring** — likely landing in aifoxx.
-Active in a public cloud-sandbox isolation bug bounty.
-
-Running **[Errsol Technologies LLP](https://errsol.com)** since 2019 — DPIIT-recognised, founded at 21 in my third year of university. Current client work is under NDA.
 
 <br>
 
