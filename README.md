@@ -35,7 +35,6 @@ so our hours go to judgement instead of copy-paste.
 | 💰 **ROI, not procurement** | Accurate enough that we **cancelled the commercial tool** we were evaluating |
 | 🏆 **Recognition** | **CFO Innovation Award** |
 | 🔍 **AI-augmented pentesting** | Burp Suite Pro wired to Claude over MCP — testing driven in plain language |
-| 🤖 **Agentic engineering** | **836 subagents dispatched** across 1,358 sessions — roughly 7 agent actions for every hand edit |
 
 > The thread through all of it: **get real ROI out of the AI you already pay for, instead of buying the next tool.**
 
@@ -120,6 +119,22 @@ Every compliance claim links to the vendor's own words, and **`null` means unver
 </td>
 </tr>
 </table>
+
+---
+
+## 🤖 How this gets built
+
+I dispatch agents rather than typing the code myself. **Across my own projects** — not employer work — that comes to:
+
+| | |
+|:--|:--|
+| **836** | subagents dispatched, over 1,358 sessions and 67 repositories |
+| **~7 : 1** | agent/CLI actions per hand edit (43,790 Bash+MCP vs 6,382 Edit/Write) |
+| **385,647** | tool-call spans logged by my own ClaudeSec, across 146 repositories |
+| **4,843** | alerts ClaudeSec raised on my own agents — 22 critical |
+
+Every tool call routes through a pre-execution hook into ClaudeSec, so the agents that write my
+code are themselves monitored by the tool I built to watch agents.
 
 ---
 
