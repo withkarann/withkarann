@@ -125,7 +125,7 @@ Every compliance claim links to the vendor's own words, and **`null` means unver
 ## 🤖 How this gets built
 
 I dispatch agents rather than typing the code myself — and I can tell you exactly how much,
-because I built the tool that measures it. **Across my own projects, not employer work:**
+because I built the tool that measures it. **Across my own projects:**
 
 **From [ClaudeSec](https://github.com/aanjaneyasinghdhoni/ClaudeSec)**, which instruments every tool call my agents make:
 
