@@ -54,7 +54,7 @@ team's work so our hours go to judgement instead of copy-paste.
 <td width="50%" valign="top">
 
 ### 🔒 [ClaudeSec](https://github.com/aanjaneyasinghdhoni/ClaudeSec)
-<img src="https://img.shields.io/badge/AGPL--3.0-open_source-2f9e6e?style=flat-square"> <img src="https://img.shields.io/badge/673-detection_rules-1B2B34?style=flat-square">
+<img alt="AGPL-3.0, open source" src="https://img.shields.io/badge/AGPL--3.0-open_source-2f9e6e?style=flat-square"> <img alt="673 detection rules" src="https://img.shields.io/badge/673-detection_rules-1B2B34?style=flat-square">
 
 **Your coding agent stopped asking permission. This keeps the receipt.**
 
@@ -70,7 +70,7 @@ Claude Code, Copilot CLI and Codex land in one live timeline on one machine — 
 <td width="50%" valign="top">
 
 ### 🎯 [VODP](https://vodp.dev) &nbsp;<sub>vodp.dev</sub>
-<img src="https://img.shields.io/badge/M.Sc._thesis-TU_Chemnitz-4169E1?style=flat-square"> <img src="https://img.shields.io/badge/93%25-less_triage-1B2B34?style=flat-square">
+<img alt="M.Sc. thesis, TU Chemnitz" src="https://img.shields.io/badge/M.Sc._thesis-TU_Chemnitz-4169E1?style=flat-square"> <img alt="93% less triage" src="https://img.shields.io/badge/93%25-less_triage-1B2B34?style=flat-square">
 
 **Four scanners in. One honest list out.**
 
@@ -88,7 +88,7 @@ Burp Suite, ZAP, Nuclei and Dalfox normalised into one schema, deduplicated, and
 <td width="50%" valign="top">
 
 ### 📋 [Answerdeck](https://answerdeck.app) &nbsp;<sub>answerdeck.app</sub>
-<img src="https://img.shields.io/badge/in_progress-F59E0B?style=flat-square"> <img src="https://img.shields.io/badge/EU-by_design-0F766E?style=flat-square">
+<img alt="In progress" src="https://img.shields.io/badge/in_progress-F59E0B?style=flat-square"> <img alt="EU by design" src="https://img.shields.io/badge/EU-by_design-0F766E?style=flat-square">
 
 **Security questionnaires gate enterprise deals. They shouldn't eat a week.**
 
@@ -104,7 +104,7 @@ Draws answers from a team's own evidence, cites the document behind each one, an
 <td width="50%" valign="top">
 
 ### 🏢 [BrikSync PropOS](https://briksync.com) &nbsp;<sub>briksync.com</sub>
-<img src="https://img.shields.io/badge/private_beta-6D28D9?style=flat-square"> <img src="https://img.shields.io/badge/~4,400-tests-1B2B34?style=flat-square">
+<img alt="Private beta" src="https://img.shields.io/badge/private_beta-6D28D9?style=flat-square"> <img alt="~4,400 tests" src="https://img.shields.io/badge/~4,400-tests-1B2B34?style=flat-square">
 
 **A live multi-tenant SaaS where the permission model *is* the product.**
 
@@ -122,7 +122,7 @@ Landlord, property manager, broker and tenant each sign in and see only their ow
 <td colspan="2" valign="top">
 
 ### 🦊 [aifoxx](https://aifoxx.com) &nbsp;<sub>aifoxx.com</sub>
-<img src="https://img.shields.io/badge/MIT-open_source-2f9e6e?style=flat-square"> <img src="https://img.shields.io/badge/live-2f9e6e?style=flat-square">
+<img alt="MIT, open source" src="https://img.shields.io/badge/MIT-open_source-2f9e6e?style=flat-square"> <img alt="Live" src="https://img.shields.io/badge/live-2f9e6e?style=flat-square">
 
 **"Is this tool SOC 2? Do they train on our data? Where does it live?" — the three questions every AI shortlist dies on.**
 
@@ -285,7 +285,7 @@ code are watched by the tool I built to watch agents.
   <sub>Writing about AI-assisted pentesting, local inference for compliance, and shipping with agents → <a href="https://withkarann.com/blog"><b>withkarann.com/blog</b></a></sub>
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2f9e6e,100:0d3b2e&height=90&section=footer" width="100%">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2f9e6e,100:0d3b2e&height=90&section=footer" alt="" width="100%">
 
 <p align="center">
   <b>Working on something where AI meets security?</b><br>
